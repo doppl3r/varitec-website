@@ -1,0 +1,15 @@
+<ul class="left-nav">
+    <div class="toggle noselect"><li>View More Specialties<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></li></div>
+    <a class="effect-swing" href="specialties-a.html"><li>Healthcare</li></a>
+    <a class="effect-swing" href="specialties-b.html"><li>Education</li></a>
+    <a class="effect-swing" href="specialties-c.html"><li>Public Works</li></a>
+    <a class="effect-swing" href="specialties-d.html"><li>Commercial Solutions</li></a>
+    <a class="effect-swing" href="specialties-e.html"><li>Data Centers</li></a>
+    <a class="effect-swing" href="specialties-f.html"><li>Hospitality</li></a>
+    <a class="effect-swing" href="specialties-g.html"><li>Industrial</li></a>
+    <a class="effect-swing" href="specialties-h.html"><li>Government</li></a>
+</ul>
+<script>
+    function setLeftNav(i){ $('.left-nav').find('ul a').eq(i).addClass('active'); }
+    $(".toggle").click(function() { $('.left-nav').toggleClass("active"); });
+</script>

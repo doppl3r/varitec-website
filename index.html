@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Varitec Solutions</title>
+		<meta name="description" content="sabre">
+		<meta name="author" content="jacob debenedetto">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
+	</head>
+	<body>
+        <!--include page elemnts-->
+        <nav></nav>
+        <div class="header1"></div>
+        <section class="carousel about-carousel" id="continue"></section>
+        <footer></footer>
+        
+        <!--construct pages with js-->
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>
+		<script>
+            $(document).ready(function () {
+                $('nav').load('nav.html');
+                $('.header1').load('header1.html');
+                $('.about-carousel').load('about-carousel.html');
+                $('footer').load('footer.html');
+            });
+		</script>
+	</body>
+</html>

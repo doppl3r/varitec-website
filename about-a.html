@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Varitec Solutions</title>
+		<meta name="description" content="sabre">
+		<meta name="author" content="jacob debenedetto">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/stylesheet.css">
+		<link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
+	</head>
+	<body>
+        <nav class="white"></nav>
+        
+        <div class="header2" style="background-image: url('img/about-header-main-a.jpg')">
+            <h2>Same Legacy.</h2>
+            <h2>Same Team.</h2>
+            <h2>New Name.</h2>
+        </div>
+        
+        <section>
+            <div class="wrapper pad-side">
+                <div class="row">
+                    <div class="left-nav col-md-4"></div>
+                    <div class="col-md-8">
+                        <h3>Climatec to Varitec. A 40-year legacy of leadership.</h3>
+                        <p>Climatec was founded in 1975 as a small, one office, mechanical equipment manufacturer’s rep firm with seven employees.  Climatec was built on a passion to make buildings more efficient and more comfortable by delivering  a unique blend of leading products and expertise.  In 40 years Climatec grew into the largest privately owned building technologies provider in the nation with offices in Arizona, New Mexico, Texas and California.  Climatec also grew into two divisions:  “Climatec Engineered HVAC Solutions” and “Climatec Building Technologies Group.”  Eventually Climatec’s Building Technologies Group joined with one of the world’s largest companies while Climatec’s Engineered HVAC Solutions took on a new name, Varitec.  Though our name has changed, ourcompany has not.  Same team. Same passion. Same legacy.</p>
+                        <img src="img/varitec-about-a-graphic.png" style="padding: 0 0 10%;"/>
+                        <p class="center"><em>“Our unique 40-year legacy of leadership in Engineered HVAC Solutions, blended with our industry-leading experts and world-leading products is the foundation of Varitec’s success. Since 1975 our passion has remained the same:. to make buildings more efficient and more comfortable for our clients.”</em></p>
+                        <p class="center no-margin">Jack Kucera</p>
+                        <p class="center">President of Varitec</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer></footer>
+        
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.vide.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>
+		<script>
+            $(document).ready(function () {
+                $('nav').load('nav.html',function(){ setNav(0); });
+                $('.left-nav').load('about-nav.html',function(){ setLeftNav(1); });
+                $('footer').load('footer.html');
+            });
+		</script>
+	</body>
+</html>

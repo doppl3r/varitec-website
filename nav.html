@@ -1,0 +1,19 @@
+<div class="wrapper">
+    <a href="index.html"><div class="logo"><img class="large" src="img/varitec-logo.png"/><img class="small" src="img/varitec-logo-small.png"/></div></a>
+    <ul class="effect-swing">
+        <a href="about.html"><li>about varitec</li></a>
+        <a href="products.html"><li>leading products</li></a>
+        <a href="specialties.html"><li>specialties</li></a>
+        <a href="showcase.html"><li>showcase</li></a>
+        <a href="contact.html"><li>contact</li></a>
+        <div class="nav-button effect-swing"><img src="img/nav-button-gray.png"/></div>
+    </ul>
+</div>
+<script>
+    var white = $('nav').hasClass('white') ? true : false; //check if it starts white
+    $(window).scroll(function (event) {
+        if($(window).scrollTop()==0 && !white) { $('nav').removeClass('white'); }
+        else { $('nav').attr('class','white effect-swing');  }
+    });
+    function setNav(i){ $('nav').find('ul a').eq(i).addClass('active effect-swing'); }
+</script>
