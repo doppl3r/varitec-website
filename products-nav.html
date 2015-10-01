@@ -1,0 +1,10 @@
+<ul class="left-nav">
+    <div class="toggle noselect"><li>View More Specialties<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></li></div>
+    <a class="effect-swing" href="products-a.html"><li>Engineered Solutions</li></a>
+    <a class="effect-swing" href="products-b.html"><li>Air Distribution</li></a>
+    <a class="effect-swing" href="products-c.html"><li>Industrial Ventilation</li></a>
+</ul>
+<script>
+    function setLeftNav(i){ $('.left-nav').find('ul a').eq(i).addClass('active effect-swing'); }
+    $(".toggle").click(function() { $('.left-nav').toggleClass("active"); });
+</script>

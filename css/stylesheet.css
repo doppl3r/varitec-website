@@ -1,6 +1,6 @@
 
-html { background-color: #555; }
-body { /*font-family: 'roboto-condensedbold';*/ overflow-x: hidden; font-size: 16px;}
+html { background-color: #fff; }
+body { background-color: #fff;/*font-family: 'roboto-condensedbold';*/ overflow-x: hidden; font-size: 16px;}
 a, a:hover { text-decoration: none; }
 .wrapper { display: block; max-width: 1024px; margin: 0 auto; }
 
@@ -45,6 +45,7 @@ nav.white ul a li { border-right-color: #494949; }
 .header1 .vide .button img { width: 32px; padding-bottom: 16px; }
 
 .header2 { margin-top: 96px; padding: 64px 0; background: url('') no-repeat bottom center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; text-align: center; }
+.header2.none { padding: 0; }
 .header2 h1 { font-family: 'nesobrite'; font-size: 88px; color: #fff; text-transform: uppercase; margin: 0; line-height: 88px; }
 .header2 h2 { font-family: 'nesobrite'; font-size: 52px; color: #fff; text-transform: uppercase; margin: 0; line-height: 52px; }
 .header2 h3 { font-family: 'roboto-condensedregular'; font-size: 20px; line-height: 20px; color: #fff; font-weight: normal; }
@@ -93,6 +94,10 @@ section .tiles a img { display: inline-block; padding-bottom: 0px; }
 section .tiles a:hover { /*background-color: #9ebc42;*/ }
 section .tiles a:hover img { opacity: 0.75; }
 
+section .compact-left { display: block; max-width: 640px; margin: 64px auto 0;  }
+section .compact-left strong p { margin: 0; }
+section .compact-left p { text-align: left; }
+
 /*carousel styling*/
 .about-carousel { text-align: center; padding: 0 0 5% 0; }
 .about-carousel.gray { background-color: #e8e8e8; }
@@ -109,6 +114,11 @@ section .tiles a:hover img { opacity: 0.75; }
 .carousel > .wrapper.navi img.arrow { padding-bottom: initial; }
 .carousel > .wrapper.navi .arrow.left { left: -32px; }
 .carousel > .wrapper.navi .arrow.right { right: -32px; }
+
+.showcase-carousel { text-align: center; padding: 5% 0 5% 0; }
+.showcase-carousel.gray { background-color: #ececec; }
+.showcase-carousel h4 { margin-bottom: 48px; font-family: 'roboto-condensedbold'; color: #505050; }
+.showcase-carousel .owl-carousel .item img { max-height: 96px; width: auto; }
 
 .about-logo {}
 .about-logos .owl-carousel .item  { text-align: center; }
@@ -176,6 +186,8 @@ img.zoom-out:hover { -webkit-transform:scale(0.75); -moz-transform:scale(0.75); 
     section .panel ul { list-style: none; padding: 0; margin:0 0 10%; }
     section .tiles a { width: 50%; }
     section .tiles a img { width: 100%; }
+    
+    section .compact-left p { text-align: center; }
     
     footer .one-fifth { display: block; width: 100%; margin: 0 auto; text-align: center; }
     footer .social-media { display: inline-block; margin-bottom: 32px; }
