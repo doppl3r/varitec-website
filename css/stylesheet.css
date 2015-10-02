@@ -84,6 +84,7 @@ section .panel h4 { padding: 0; margin: 0; }
 section .panel ul { font-family: 'roboto-condensedregular'; color: #494949; margin-bottom: 12px; }
 section .panel ul a.more { display: inline-block; margin: 0px 0 8px -40px; cursor:pointer; color:#9ebc42; font-family: 'roboto-condensedregular'; font-size: 16px; font-weight: normal; }
 section .panel ul a.more:hover { color: #666; }
+section .panel .row .row { border-bottom: 4px solid #f1f1f1; padding: 12px 0 0; margin: 0 0px; }
 section .panel { box-shadow: none; }
 section .panel-title { padding: 0; }
 section .panel-title>a { display: block; text-decoration: none; margin: 0; }
@@ -92,6 +93,11 @@ section .panel-title>a.collapsed:after { content: '+'; }
 section .panel-default { border: none; }
 section .panel-default>.panel-heading { background-color: transparent; border: none; border-bottom: 1px solid #e0e0e0; }
 section .panel-default>.panel-heading+.panel-collapse>.panel-body { border: none; }
+
+section .panel .location h3 { cursor: pointer; }
+section .panel .location div.collapsed { display: none; }
+section .panel .location h3:after { content: '+'; font-size: 32px; color: #494949; float: right; width: 32px; line-height: 32px; text-align: center; margin-right: -12px; }
+section .panel .location h3.collapsed:after { content: '-'; }
 
 section .tiles { max-width: 800px; margin: 48px auto 0; }
 section .tiles a { display: inline-block; width: 33.3333%; margin: 0 -2px 1px; }
@@ -195,7 +201,6 @@ img.zoom-out:hover { -webkit-transform:scale(0.75); -moz-transform:scale(0.75); 
     
     section .panel ul { list-style: none; padding: 0; margin:0 0 10%; }
     section .panel ul a.more { margin: 0; }
-    section .panel .row .row { border-bottom: 4px solid #f1f1f1; }
     section .panel .row .row img { padding: 0; }
     section .panel .row .row ul { margin: 0 0 8px; }
     section .tiles a { width: 50%; }
