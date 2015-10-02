@@ -22,7 +22,7 @@ nav .nav-button { display: none; }
 nav.white { background-color: #fff; }
 nav.white .logo { padding: 0px; }
 nav.white .logo .large { display: none; }
-nav.white .logo .small { display: initial; padding: 18px; background-color: transparent; }
+nav.white .logo .small { display: initial; padding: 30px 0 30px 12px; background-color: transparent; }
 nav.white ul a { color: #494949; }
 nav.white ul a:hover { color: #84a229; }
 nav.white ul a li { border-right-color: #494949; }
@@ -54,11 +54,13 @@ nav.white ul a li { border-right-color: #494949; }
 /*global styling*/
 section { background-color: #fff; padding: 48px 0; }
 section.no-bottom-padding { padding-bottom: 0; }
+section.bottom-line { border-bottom: 1px solid #ededed; }
 section h2 { font-family: 'roboto-condensedregular'; font-size: 32px; padding: 0px 0px 18px; line-height: 32px; color: #494949; font-weight: normal; }
 section h2.center { text-align: center; }
 section h3 { font-family: 'roboto-condensedregular'; font-size: 28px; padding: 0px 0px 16px; margin-top: 0px; line-height: 28px; color: #494949; font-weight: bold; }
 section h4 { font-family: 'roboto-condensedregular'; font-size: 21px; padding: 0px 0px 12px; margin-top: 0px; line-height: 21px; color: #494949; font-weight: normal; }
 section p { font-family: 'roboto-condensedlight'; font-size: 18px; color: #4a4a4a; margin-bottom: 5%; }
+section p strong { font-size: 21px; }
 section a { font-family: 'roboto-condensedbold';  font-size: 21px; color: #4a4a4a; margin-bottom: 5%; }
 section a:hover { color: #9ebc42;  }
 section img { max-width: 100%; padding-bottom: 5%; }
@@ -108,7 +110,7 @@ section .tiles a:hover { /*background-color: #9ebc42;*/ }
 section .tiles a:hover img { opacity: 0.75; }
 
 section .compact-left { display: block; max-width: 640px; margin: 64px auto 0;  }
-section .compact-left strong p { margin: 0; }
+section .compact-left strong p { margin: 0; font-size: 21px; }
 section .compact-left p { text-align: left; }
 
 section form { margin: 64px auto; max-width: 640px; }
@@ -185,6 +187,7 @@ img.zoom-out:hover { -webkit-transform:scale(0.75); -moz-transform:scale(0.75); 
     nav.white ul { background-color: #fff; }
     nav.white .logo { height: 96px; }
     nav.white .logo .small { height: initial; }
+    nav.white .nav-button { background-color: transparent; }
     
     .header1 .vide .wrapper-vertical { padding: 0px 32px; }
     .header1 .vide h1 { font-size: 32px; line-height: 32px; }
