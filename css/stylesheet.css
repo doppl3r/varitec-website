@@ -53,6 +53,7 @@ nav.white ul a li { border-right-color: #494949; }
 
 /*global styling*/
 section { background-color: #fff; padding: 48px 0; }
+section.no-bottom-padding { padding-bottom: 0; }
 section h2 { font-family: 'roboto-condensedregular'; font-size: 32px; padding: 0px 0px 18px; line-height: 32px; color: #494949; font-weight: normal; }
 section h2.center { text-align: center; }
 section h3 { font-family: 'roboto-condensedregular'; font-size: 28px; padding: 0px 0px 16px; margin-top: 0px; line-height: 28px; color: #494949; font-weight: bold; }
@@ -85,7 +86,7 @@ section .panel h4 { padding: 0; margin: 0; }
 section .panel ul { font-family: 'roboto-condensedregular'; color: #494949; margin-bottom: 12px; }
 section .panel ul a.more { display: inline-block; margin: 0px 0 8px -40px; cursor:pointer; color:#9ebc42; font-family: 'roboto-condensedregular'; font-size: 16px; font-weight: normal; }
 section .panel ul a.more:hover { color: #666; }
-section .panel .row .row { border-bottom: 4px solid #f1f1f1; padding: 12px 0 0; margin: 0 0px; }
+section .panel .row .row { border-bottom: 1px solid #ededed; padding: 12px 0 0; margin: 0 0px; }
 section .panel { box-shadow: none; }
 section .panel-title { padding: 0; }
 section .panel-title>a { display: block; text-decoration: none; margin: 0; }

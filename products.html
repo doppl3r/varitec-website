@@ -21,7 +21,7 @@
             <p>Representing the world's leading HVAC brands</p>
         </div>
         
-        <section>
+        <section class="no-bottom-padding">
             <div class="wrapper pad-side center">
                 <h3>Varitec delivers world class solutions from the world’s top brands</h3>
                 <p style="margin:0; font-size: 21px;"><strong>More options mean optimal solutions at a better value.</strong></p>
@@ -33,6 +33,7 @@
         </section>
         
         <!--<section class="carousel showcase-carousel gray"></section>-->
+        <section class="carousel about-logos"></section>
         
         <footer></footer>
         
@@ -45,6 +46,7 @@
             $(document).ready(function () {
                 $('nav').load('nav.html',function(){ setNav(1); });
                 $('.showcase-carousel').load('showcase-carousel.html');
+                $('.about-logos').load('about-carousel2.html');
                 $('footer').load('footer.html');
             });
 		</script>
