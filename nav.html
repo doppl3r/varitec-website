@@ -16,8 +16,4 @@
         else { $('nav').attr('class','white effect-swing');  }
     });
     function setNav(i){ $('nav').find('ul a').eq(i).addClass('active effect-swing'); }
-    function adjustDir(pfx,sfx) { $('a').each(function(){
-        var _href = $(this).attr("href");
-        $(this).attr("href", pfx+_href+sfx);
-    });
 </script>
