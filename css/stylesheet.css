@@ -79,7 +79,7 @@ section ul.left-nav .toggle { display: none; }
 
 section .panel {}
 
-section .panel h3 { border-bottom: 4px solid #f1f1f1; margin-top: 24px; }
+section .panel h3 { border-bottom: 4px solid #f1f1f1; padding: 12px; background-color: #f1f1f1; }
 section .panel h4 { padding: 0; margin: 0; }
 section .panel ul { font-family: 'roboto-condensedregular'; color: #494949; margin-bottom: 12px; }
 section .panel ul a.more { display: inline-block; margin: 0px 0 8px -40px; cursor:pointer; color:#9ebc42; font-family: 'roboto-condensedregular'; font-size: 16px; font-weight: normal; }
