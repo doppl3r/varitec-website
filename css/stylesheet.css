@@ -7,7 +7,7 @@ a, a:hover { text-decoration: none; }
 /*nav layout*/
 nav { display: block; margin: 0 auto; max-height: 96px; position: fixed; top: 0; width: 100%; z-index: 1; }
 nav .wrapper { pointer-events: none; }
-nav .logo { display: inline-block; background-color: rgba(255,255,255,0.8); padding: 40px 12px; pointer-events: auto; }
+nav .logo { display: inline-block; background-color: rgba(255,255,255,0.8); padding: 24px 12px; pointer-events: auto; }
 nav .logo img { max-width: 100%; max-height: 100%; }
 nav .logo .large { display: initial; }
 nav .logo .small { display: none; }
@@ -168,7 +168,7 @@ img.zoom-out:hover { -webkit-transform:scale(0.75); -moz-transform:scale(0.75); 
     nav .nav-button img { display: inline-block; vertical-align: middle; margin-right: -4px; }
     nav .logo { padding: 0px; }
     nav .logo img { padding: 16px; height: 60px; }
-    nav ul { position: absolute; top: 0px; left: 100%; width: 100%; background-color: rgba(255,255,255,0.8); text-align: center; padding-top: 96px; }
+    nav ul { position: absolute; top: 0px; left: 100%; width: 100%; background-color: rgba(255,255,255,0.95); text-align: center; padding-top: 96px; }
     nav ul:hover { left: 50%; width: 50%; padding-top: 96px; }
     nav ul:hover .nav-button { left: 0px; opacity: 0.1; }
     nav ul a { display: block; line-height: 64px; color: #494949; }
@@ -210,6 +210,8 @@ img.zoom-out:hover { -webkit-transform:scale(0.75); -moz-transform:scale(0.75); 
 @media(max-height: 639px) and (orientation: landscape){
     /*prevent nav from covering content*/
     nav.white { position: relative; }
+    .header1 .vide .wrapper-vertical { padding: 0px 32px; }
+    .header1 .vide h1 { font-size: 32px; line-height: 32px; }
     .header2 { margin: 0; }
 }
 
