@@ -33,11 +33,15 @@ nav.white ul a li { border-right-color: #494949; }
 /*header styles*/
 .header1 { background-color: #555; }
 .header1 > .wrapper { position: absolute; left:0;right:0;top:0;bottom:0; pointer-events: none; }
-.header1 .wrapper-vertical { margin: auto auto; }
+.header1 .wrapper-vertical { }
 .header1 .arrow { height: 72px; width: auto; position: absolute; top:50%; margin-top: -36px; cursor: pointer; pointer-events:auto; }
 .header1 .arrow.left { left: -32px; }
 .header1 .arrow.right { right: -32px; }
-.header1 .vide { display: -webkit-inline-flex; display: -ms-inline-flexbox; display: inline-flex; -webkit-align-self: auto; text-align: center; position: relative; background: url('') no-repeat bottom center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.header1 .vide { 
+    display: -webkit-inline-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    text-align: center; position: relative; background: url('') no-repeat bottom center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .header1 .vide h1 { font-family: 'nesobrite'; font-size: 72px; line-height: 72px; text-transform: uppercase; color: #fff; margin: 0; padding: 0; }
 .header1 .vide h6 { margin: 0 0 32px; font-size: 21px; color: #fff; font-family: 'roboto-condensedregular'; font-weight: normal; }
 .header1 .vide h6.green { color: #9ebc42;  }
