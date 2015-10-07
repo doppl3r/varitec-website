@@ -17,7 +17,7 @@ nav ul > a.active > li { color: #84a229; font-weight: bold; }
 nav ul > a:hover { color: #84a229; }
 nav ul > a > li { display: inline; padding: 0px 10px; text-transform: uppercase; border-right: 1px solid #fff; }
 nav ul > a:last-of-type > li { border: none; }
-nav ul > a > li a { display: none; }
+nav ul > a > li > a { display: none; }
 
 nav .nav-button { display: none; }
 /*white nav alterations*/
@@ -208,8 +208,10 @@ img.zoom-out:hover { -webkit-transform:scale(0.75); -moz-transform:scale(0.75); 
     section ul.left-nav.active a { height: 48px; line-height: 48px; border-bottom: 1px solid #ccc; }
     section ul.left-nav.active { padding: 0 0 32px; }
     
+    section ul li { text-align: left; }
     section .panel ul { list-style: none; padding: 0; margin:0 0 10%; }
     section .panel ul a.more { margin: 0; }
+    section .panel ul li { text-align: center; }
     section .panel .row .row img { padding: 0; }
     section .panel .row .row ul { margin: 0 0 8px; }
     section .tiles a { width: 50%; }
