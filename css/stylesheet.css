@@ -149,15 +149,15 @@ section form button.button { float: right; background-color: #9ebc42; color: #ff
 
 /*footer styles*/
 footer { background-color: #dbdbdb; padding: 72px 12px; }
-footer .one-fifth { display: inline-block; margin-right: -4px; width: 20%; vertical-align: top; }
-footer .one-fifth img { max-width: 100%; }
-footer .one-fifth.center { text-align: center; }
+footer .item { text-align: left; }
 footer .social-media { display: block; margin-bottom: 8px; }
 footer ul { list-style: none; padding: 0; margin: 0; }
 footer ul a { display: block; color: #333333; padding: 0 0 20px; text-transform: uppercase; font-family: "roboto-condensedlight"; }
 footer ul a:hover { color: #84a229; }
 footer ul a li strong { font-family: "roboto-condensedbold"; }
 footer .divider1 { display: inline-block; height: 128px; width: 0px; margin: 0 26px 0 -30px; border-right: 1px solid #333; }
+footer img { vertical-align: top; }
+footer .center { text-align: center; }
 
 /*class mutators*/
 .effect-swing { -webkit-transition: all 0.25s ease-out; -moz-transition: all 0.25s ease-out; -o-transition: all 0.25s ease-out; transition: all 0.25s ease-out; }
@@ -219,8 +219,8 @@ img.zoom-out:hover { -webkit-transform:scale(0.75); -moz-transform:scale(0.75); 
     
     section .compact-left p { text-align: center; }
     
-    footer .one-fifth { display: block; width: 100%; margin: 0 auto; text-align: center; }
-    footer .social-media { display: inline-block; margin-bottom: 32px; }
+    
+    footer .item { text-align: center; }
     footer .divider1 { display: none; }
 }
 @media(max-height: 639px) and (orientation: landscape){
