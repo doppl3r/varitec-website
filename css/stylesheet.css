@@ -95,8 +95,8 @@ section .panel ul a.more:hover { color: #666; }
 section .panel .row .row { border-bottom: 1px solid #ededed; padding: 12px 0 0; margin: 0 0px; }
 section .panel { box-shadow: none; }
 section .panel-title { padding: 0; }
-section .panel-title>a { display: block; text-decoration: none; margin: 0; }
-section .panel-title>a:after { content: '-'; font-size: 32px; color: #fff; background-color: #999999; float: right; width: 32px; line-height: 32px; text-align: center; margin-right: -15px; }
+section .panel-title>a { display: inline-block; text-decoration: none; margin: 0; width: 100%; }
+section .panel-title>a:after { content: '-'; font-size: 32px; color: #fff; background-color: #999999; float: right; width: 32px; line-height: 32px; text-align: center; margin-right: -15px; margin-bottom: -10px; border-bottom: 1px solid #999999; }
 section .panel-title>a.collapsed:after { content: '+'; }
 section .panel-default { border: none; }
 section .panel-default>.panel-heading { background-color: transparent; border: none; border-bottom: 1px solid #e0e0e0; }
@@ -158,6 +158,8 @@ footer ul a li strong { font-family: "roboto-condensedbold"; }
 footer .divider1 { display: inline-block; height: 128px; width: 0px; margin: 0 26px 0 -30px; border-right: 1px solid #333; }
 footer img { vertical-align: top; }
 footer .center { text-align: center; }
+footer p { font-family: "roboto-condensedlight"; font-size: 14px; color: #999999; }
+footer .pad-top { padding-top: 5%; }
 
 /*class mutators*/
 .effect-swing { -webkit-transition: all 0.25s ease-out; -moz-transition: all 0.25s ease-out; -o-transition: all 0.25s ease-out; transition: all 0.25s ease-out; }
