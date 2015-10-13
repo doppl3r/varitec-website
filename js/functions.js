@@ -14,16 +14,18 @@ var $resize = $(window).resize(function () { if (!isMobile()) fullscreen(null); 
 
 function isMobile() {return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)); }
 
-$( window ).load(function() {
-    sliceExtension();
-});
-
+sliceExtension();
 function sliceExtension(){
-    //remove fragment as much as it can go without adding an entry in browser history:
-    window.location.replace("#");
-    // slice off the remaining '#' in HTML5:    
-    if (typeof window.history.replaceState == 'function') {
-        var href=window.location.href;
-        history.replaceState({}, '', window.location.href.slice(0, href.lastIndexOf(".")));
+    var myURL=window.location.href;
+    if (myURL.lastIndexOf(".html") > 0){
+        //remove fragment as much as it can go without adding an entry in browser history:
+        window.location.replace("#");
+        //slice off the remaining '#' in HTML5:    
+        if (typeof window.history.replaceState == 'function') {
+            history.replaceState({}, '', window.location.href.slice(0, myURL.lastIndexOf(".")));
+        }
+        if (myURL.lastIndexOf("index") > 0){
+            history.replaceState({}, '', window.location.href.slice(0, myURL.lastIndexOf("index")));
+        }
     }
 }
