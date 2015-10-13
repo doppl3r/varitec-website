@@ -23,6 +23,7 @@
 		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.cookie.js"></script>
         <script type="text/javascript" src="js/functions.js"></script>
 		<script>
             //Load content
@@ -32,6 +33,17 @@
                 $('.about-carousel').load('about-carousel.html');
                 $('footer').load('footer.html');
                 $('body').fadeIn(2000);
+                
+                $(function() {
+                    var COOKIE_NAME = 'splash-page-cookie';
+                    $go = $.cookie(COOKIE_NAME);
+                    if ($go == null) {
+                        $.cookie(COOKIE_NAME, 'test', { path: '/', expires: 6 });
+                        window.location = "/visitor.html";
+                    }
+                    else {
+                    }
+                });
             });
 		</script>
 	</body>
