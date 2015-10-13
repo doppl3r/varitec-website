@@ -39,7 +39,7 @@
                     $go = $.cookie(COOKIE_NAME);
                     if ($go == null) {
                         $.cookie(COOKIE_NAME, 'test', { path: '/', expires: 6 });
-                        window.location = "/visitor.html";
+                        window.location = window.location.pathname.replace(/[^\\\/]*$/, '') + "visitor.html";
                     }
                     else {
                     }
