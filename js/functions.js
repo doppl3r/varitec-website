@@ -19,7 +19,7 @@ function isSafari(){ return (navigator.userAgent.indexOf("Safari") > -1); }
 sliceExtension();
 function sliceExtension(){
     var myURL=window.location.href;
-    if (myURL.lastIndexOf(".html") > 0){
+    if (myURL.lastIndexOf(".html") > 0 && myURL.indexOf('127.0.0.1') < 0){
         //remove fragment as much as it can go without adding an entry in browser history:
         window.location.replace("#");
         //slice off the remaining '#' in HTML5:    
