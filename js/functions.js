@@ -13,6 +13,8 @@ function fullscreen(name) {
 var $resize = $(window).resize(function () { if (!isMobile()) fullscreen(null); });
 
 function isMobile() {return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)); }
+function isIE(){ return (navigator.userAgent.indexOf("MSIE") != -1); }
+function isSafari(){ return (navigator.userAgent.indexOf("Safari") > -1); }
 
 sliceExtension();
 function sliceExtension(){

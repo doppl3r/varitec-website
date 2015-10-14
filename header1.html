@@ -44,5 +44,5 @@
     //Smoothly Scroll to Anchors
     var $root = $('html, body');
     $('a').click(function () { var href = $.attr(this, 'href'); $root.animate({ scrollTop: ($(href).offset().top) - ($('nav').height()) }, 500, function () {}); return false;});
-    
+    //if (isSafari()) $('.wrapper-vertical').addClass('fix');
 </script>
