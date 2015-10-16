@@ -259,7 +259,7 @@ img.zoom-out:hover { -webkit-transform:scale(0.75); -moz-transform:scale(0.75); 
 @media(max-height: 639px) and (orientation: landscape){
     /*prevent nav from covering content*/
     nav.white { position: relative; }
-    .header1 .vide .wrapper-vertical { padding: 0px 32px; }
+    .header1 .vide .wrapper-vertical { /*padding: 0px 32px;*/ }
     .header1 .vide h1 { font-size: 32px; line-height: 32px; }
     .header2 { margin: 0; }
 }
