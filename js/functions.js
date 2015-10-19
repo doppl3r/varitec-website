@@ -16,6 +16,7 @@ function isMobile() {return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile
 function isIE(){ return (navigator.userAgent.indexOf("MSIE") != -1); }
 function isSafari(){ return (navigator.userAgent.indexOf("Safari") > -1); }
 
+//slice off the 'html' extra for the website
 sliceExtension();
 function sliceExtension(){
     var myURL=window.location.href;
@@ -31,3 +32,6 @@ function sliceExtension(){
         }
     }
 }
+
+//Google Analytics
+$('script:last').appendTo('body').load('js/varitec-GA.js');
