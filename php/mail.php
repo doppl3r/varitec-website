@@ -24,6 +24,7 @@ $message =  '<div style="padding: 64px; background-color: #9ebc42; border-bottom
             '<p style="color: #fff; font-size: 24px;"><strong>Somebody wants to contact you!</strong></p>'.
             '<p style="color: #fff; font-size: 24px;"><strong>Name:</strong> '.$_REQUEST['name'].'</p>'.
             '<p style="color: #fff; font-size: 24px;"><strong>Email Address:</strong> '.$_REQUEST['email'].'</p>'.
+            '<p style="color: #fff; font-size: 24px;"><strong>Phone:</strong> '.$_REQUEST['usrtel'].'</p>'.
             '<p style="color: #fff; font-size: 24px;"><strong>Comment:</strong> '.$_REQUEST['comment'].'</p>'.
             '</div>';
 $mail->msgHTML($message);
