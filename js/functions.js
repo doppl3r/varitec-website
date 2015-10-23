@@ -34,4 +34,8 @@ function sliceExtension(){
 }
 
 //Google Analytics
-$('script:last').appendTo('body').load('js/varitec-GA.js');
+//$('script:last').appendTo('body').load('js/varitec-GA.js');
+var script = document.createElement( 'script' );
+script.type = 'text/javascript';
+script.src = 'js/varitec-GA.js';
+$("body").append( script );
