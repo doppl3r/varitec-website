@@ -39,3 +39,4 @@ ExpiresByType image/svg+xml "access plus 1 year"
 ## EXPIRES CACHING ##
 
 Options +MultiViews
+
