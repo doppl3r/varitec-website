@@ -1,0 +1,15 @@
+<div class="wrapper">
+    <h2 class="center">Latest Technologies</h2>
+    <div class="owl-carousel">
+        <div class="item"><img src="img/logos-thumb5.png"/></div>
+        <div class="item"><img src="img/logos-thumb6.png"/></div>
+        <div class="item"><img src="img/logos-thumb7.png"/></div>
+    </div>
+</div>
+<div class="wrapper navi">
+    <img class="arrow left" src="img/left-arrow-gray.png" onclick='$(".panelshop-carousel2 .owl-carousel").trigger("owl.prev");' />
+    <img class="arrow right" src="img/right-arrow-gray.png" onclick='$(".panelshop-carousel2 .owl-carousel").trigger("owl.next");' />
+</div>
+<script>
+    $(".panelshop-carousel2 .owl-carousel").owlCarousel({ autoPlay: 3000, items : 3 }).resize();
+</script>

@@ -1,0 +1,31 @@
+<div class="wrapper">
+    <div class="owl-carousel center">
+        <div class="item">
+            <img src="img/panelshop-panel1.jpg" />
+            <strong>NEMA3R Redundant VFD Panels</strong>
+            <p>Panels for harsh outdoor conditions</p>
+        </div>
+        <div class="item">
+            <img src="img/panelshop-panel2.jpg" />
+            <strong>PLC Controlled Panels</strong>
+            <p>Provide monitoring of various sensing equipment.</p>
+        </div>
+        <div class="item">
+            <img src="img/panelshop-panel3.jpg" />
+            <strong>CFM Totalizing PLC</strong>
+            <p>Panels for FANWALL®</p>
+        </div>
+        <div class="item">
+            <img src="img/panelshop-panel4.jpg" />
+            <strong>Exhaust Fan Staging</strong>
+            <p>and Control Panels</p>
+        </div>
+    </div>
+</div>
+<div class="wrapper navi">
+    <img class="arrow left" src="img/left-arrow-gray.png" onclick='$(".panelshop-carousel .owl-carousel").trigger("owl.prev");' />
+    <img class="arrow right" src="img/right-arrow-gray.png" onclick='$(".panelshop-carousel .owl-carousel").trigger("owl.next");' />
+</div>
+<script>
+    $(".panelshop-carousel .owl-carousel").owlCarousel({ autoPlay: 3000, items : 3 }).resize();
+</script>

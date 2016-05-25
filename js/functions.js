@@ -20,15 +20,17 @@ function isSafari(){ return (navigator.userAgent.indexOf("Safari") > -1); }
 sliceExtension();
 function sliceExtension(){
     var myURL=window.location.href;
-    if (myURL.lastIndexOf(".html") > 0 && myURL.indexOf('127.0.0.1') < 0){
-        //remove fragment as much as it can go without adding an entry in browser history:
-        window.location.replace("#");
-        //slice off the remaining '#' in HTML5:    
-        if (typeof window.history.replaceState == 'function') {
-            history.replaceState({}, '', window.location.href.slice(0, myURL.lastIndexOf(".")));
-        }
-        if (myURL.lastIndexOf("index") > 0){
-            history.replaceState({}, '', window.location.href.slice(0, myURL.lastIndexOf("index")));
+    if (myURL.lastIndexOf(".html") > 0){ //if html is pulled up in nav
+        if (myURL.indexOf('127.0.0.1') < 0 && myURL.indexOf('localhost') < 0) {
+            //remove fragment as much as it can go without adding an entry in browser history:
+            window.location.replace("#");
+            //slice off the remaining '#' in HTML5:
+            if (typeof window.history.replaceState == 'function') {
+                history.replaceState({}, '', window.location.href.slice(0, myURL.lastIndexOf(".")));
+            }
+            if (myURL.lastIndexOf("index") > 0){
+                history.replaceState({}, '', window.location.href.slice(0, myURL.lastIndexOf("index")));
+            }
         }
     }
 }

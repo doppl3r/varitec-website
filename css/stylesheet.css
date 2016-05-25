@@ -14,12 +14,15 @@ nav .logo img { max-width: 100%; max-height: 100%; }
 nav .logo .large { display: initial; }
 nav .logo .small { display: none; }
 nav ul { display: inline-block; padding: 0; margin: 0; vertical-align: top; float: right; pointer-events: auto; }
-nav ul > a { display: inline-block; line-height: 96px; color: #fff; font-size: 13.5px; margin-right:-4px; }
-nav ul > a.active > li { color: #84a229; font-weight: bold; }
-nav ul > a:hover { color: #84a229; }
-nav ul > a > li { display: inline; padding: 0px 10px; text-transform: uppercase; border-right: 1px solid #fff; }
-nav ul > a:last-of-type > li { border: none; }
-nav ul > a > li > a { display: none; }
+nav ul > li { display: inline-block; position: relative; line-height: 92px; color: #fff; font-size: 13.5px; margin-right:-4px; }
+nav ul > li.active > a { color: #84a229; font-weight: bold; }
+nav ul > li > a:hover { color: #84a229; }
+nav ul > li > a { display: block; padding: 0px 10px; text-transform: uppercase; line-height: 92px; color: #fff; }
+nav ul > li > a > span { display: block; }
+nav ul > li > ul { display: none; background-color: rgba(255,255,255,0.8); }
+nav ul > li:hover > ul { display: inline-block; position: absolute; top: 92px; left: 0;  width: auto;}
+nav ul > li > ul > li { display: block; margin: 0; }
+nav ul > li > ul > li > a { line-height: 48px; color: #494949; word-wrap: normal; }
 
 nav .nav-button { display: none; }
 /*white nav alterations*/
@@ -30,6 +33,7 @@ nav.white .logo .small { display: initial; padding: 30px 0 30px 12px; background
 nav.white ul a { color: #494949; }
 nav.white ul a:hover { color: #84a229; }
 nav.white ul a li { border-right-color: #494949; }
+nav.white ul > li > ul > li > a { line-height: 48px; background-color: #fff; }
 
 
 /*header styles*/
@@ -60,9 +64,12 @@ nav.white ul a li { border-right-color: #494949; }
 .header3 img.pad { padding: 0 0 64px 0; }
 
 /*global styling*/
-section { background-color: #fff; padding: 48px 0; }
+section { background-color: #fff; padding: 48px 0; background: url('') no-repeat bottom center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+section .white { color: #ffffff; }
 section.no-bottom-padding { padding-bottom: 0; }
+section .no-bottom-padding { padding-bottom: 0; }
 section.bottom-line { border-bottom: 1px solid #ededed; }
+section h1 { font-family: 'roboto-condensedregular'; font-size: 52px; }
 section h2 { font-family: 'roboto-condensedregular'; font-size: 32px; padding: 0px 0px 18px; line-height: 32px; color: #494949; font-weight: normal; }
 section h2.center { text-align: center; }
 section h3 { font-family: 'roboto-condensedregular'; font-size: 28px; padding: 0px 0px 16px; margin-top: 0px; line-height: 28px; color: #494949; font-weight: bold; }
@@ -83,6 +90,8 @@ section .button.gray:hover { opacity: initial; background-color: #9ebc42; }
 section .button.no-margin { margin: 0; }
 section .center { text-align: center; }
 section .no-margin { margin: initial; }
+section .no-stretch { width: auto; }
+section .top-margin { margin-top: 64px; }
 
 section ul.left-nav { list-style: none; padding: 0 10% 0 0; font-size: 21px; font-family: 'roboto-condensedbold'; color: #494949; }
 section ul.left-nav a { display: block; text-decoration: none; margin: 0; padding: 8px 0; border-bottom: 1px solid #999999; }
@@ -130,6 +139,7 @@ section form textarea.form-control { line-height: initial; height: 128px; paddin
 section form button.button { float: right; background-color: #9ebc42; color: #fff; border: none; border-bottom: 4px solid #83a90d; font-family: 'roboto-condensedregular'; }
 
 section.gray { background-color: #e8e8e8; }
+section.light-gray { background-color: #f6f7f8; }
 section.clear { background-color: transparent; }
 section .visitor-carousel { margin-top: -80px; text-align: center; padding-bottom: 5%; }
 section .visitor-carousel .item { padding: 0 5%; }
@@ -148,7 +158,7 @@ section .visitor-carousel .navi { position: absolute; top: 0; bottom: 0; left: 0
 .about-carousel { text-align: center; padding: 0 0 5% 0; }
 .about-carousel.gray { background-color: #e8e8e8; }
 .about-carousel h2 { color: #494949; font-family: 'roboto-condensedregular'; font-size: 32px; padding: 5% 0; margin: 0; }
-.about-carousel .owl-carousel .item { padding: 0 7.5%; }
+.about-carousel .owl-carousel .item, .panelshop-carousel .owl-carousel .item { padding: 0 7.5%; }
 .about-carousel .owl-carousel .item a { background-color: #9ebc42; display: inline-block;  }
 .about-carousel .owl-carousel .item img { max-width: 100%; display: block; padding-bottom: initial; }
 .about-carousel .owl-carousel .item img:hover { opacity: .5; }
