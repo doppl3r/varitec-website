@@ -14,8 +14,8 @@ $mail = new PHPMailer();
 //Set who the message is to be sent from
 $mail->setFrom($_REQUEST['email'], $_REQUEST['name']);
 //Set who the message is to be sent to
-$mail->addAddress('info@varitecsolutions.com');
-//$mail->addAddress('deben3@gmail.com');
+$mail->addAddress('kevinh@varitecsolutions.com');
+$mail->addAddress('deben3@gmail.com');
 //Set the subject line
 $mail->Subject = 'New Contact form filled out!';
 //Read an HTML message body from an external file, convert referenced images to embedded,
@@ -32,7 +32,7 @@ $mail->msgHTML($message);
 if (!$mail->send()) {
     echo "Mailer Error: " . $mail->ErrorInfo;
 } else {
-    echo '<script>window.location = "success.html";</script>';
+    echo '<script>window.location = "success2.html";</script>';
 }
 ?>
 </body>
