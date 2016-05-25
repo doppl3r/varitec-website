@@ -19,10 +19,10 @@ nav ul > li.active > a { color: #84a229; font-weight: bold; }
 nav ul > li > a:hover { color: #84a229; }
 nav ul > li > a { display: block; padding: 0px 10px; text-transform: uppercase; line-height: 92px; color: #fff; }
 nav ul > li > a > span { display: block; }
-nav ul > li > ul { display: none; background-color: rgba(255,255,255,0.8); }
-nav ul > li:hover > ul { display: inline-block; position: absolute; top: 92px; left: 0;  width: auto;}
+nav ul > li > ul { display: none; background-color: rgba(255,255,255,0.8); border-top: 3px solid #9dbd39; }
+nav ul > li:hover > ul { display: inline-block; position: absolute; top: 92px; left: 0;  width: 160px;}
 nav ul > li > ul > li { display: block; margin: 0; }
-nav ul > li > ul > li > a { line-height: 48px; color: #494949; word-wrap: normal; }
+nav ul > li > ul > li > a { line-height: 36px; color: #494949; word-wrap: normal; }
 
 nav .nav-button { display: none; }
 /*white nav alterations*/
@@ -33,7 +33,7 @@ nav.white .logo .small { display: initial; padding: 30px 0 30px 12px; background
 nav.white ul a { color: #494949; }
 nav.white ul a:hover { color: #84a229; }
 nav.white ul a li { border-right-color: #494949; }
-nav.white ul > li > ul > li > a { line-height: 48px; background-color: #fff; }
+nav.white ul > li > ul > li > a { background-color: #fff; }
 
 
 /*header styles*/
@@ -66,6 +66,7 @@ nav.white ul > li > ul > li > a { line-height: 48px; background-color: #fff; }
 /*global styling*/
 section { background-color: #fff; padding: 48px 0; background: url('') no-repeat bottom center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 section .white { color: #ffffff; }
+section .white-background { background-color: #fff; }
 section.no-bottom-padding { padding-bottom: 0; }
 section .no-bottom-padding { padding-bottom: 0; }
 section.bottom-line { border-bottom: 1px solid #ededed; }
