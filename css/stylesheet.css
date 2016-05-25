@@ -20,7 +20,7 @@ nav ul > li > a:hover { color: #84a229; }
 nav ul > li > a { display: block; padding: 0px 10px; text-transform: uppercase; line-height: 92px; color: #fff; }
 nav ul > li > a > span { display: block; }
 nav ul > li > ul { display: none; background-color: rgba(255,255,255,0.8); border-top: 3px solid #9dbd39; }
-nav ul > li:hover > ul { display: inline-block; position: absolute; top: 92px; left: 0;  width: 160px; }
+nav ul > li:hover > ul { display: inline-block; position: absolute; top: 92px; left: 0;  width: 220px; }
 nav ul > li:hover > ul > li:hover { background-color: rgba(255,255,255,0.25); }
 nav ul > li > ul > li { display: block; margin: 0; }
 nav ul > li > ul > li > a { line-height: 36px; color: #494949; word-wrap: normal; }
@@ -225,7 +225,7 @@ img.zoom-out:hover { -webkit-transform:scale(0.75); -moz-transform:scale(0.75); 
     nav ul a li { display: block; border: none; padding: 0; }
     /*second tier dropdown*/
     nav ul > li { display: block; line-height: initial; }
-    nav ul > li > a { line-height: 36px; }
+    nav ul > li > a { line-height: 36px; color: #494949; }
     nav ul > li:hover > ul { display: none; }
     
     nav.white ul { background-color: #fff; }
