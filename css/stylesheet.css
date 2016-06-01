@@ -139,6 +139,7 @@ section form { margin: 64px auto; max-width: 640px; }
 section form .form-control { background-color: #e5e5e5; border: none; border-radius: 0; box-shadow: none; margin-bottom: 16px; height: 64px; line-height: 64px; }
 section form textarea.form-control { line-height: initial; height: 128px; padding-top: 24px; }
 section form button.button { float: right; background-color: #9ebc42; color: #fff; border: none; border-bottom: 4px solid #83a90d; font-family: 'roboto-condensedregular'; }
+section .divider { border-bottom: 1px solid #dddddd; margin: 5% 0; }
 
 section.gray { background-color: #e8e8e8; }
 section.light-gray { background-color: #f6f7f8; }
