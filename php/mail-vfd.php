@@ -14,7 +14,7 @@ $mail = new PHPMailer();
 //Set who the message is to be sent from
 $mail->setFrom($_REQUEST['email'], $_REQUEST['fname'], $_REQUEST['lname']);
 //Set who the message is to be sent to
-$mail->addAddress('kellieh@varitecsolutions.com');
+$mail->addAddress('Kelliehuff24@gmail.com');
 //$mail->addAddress('jacob@yanocreative.com');
 //Set the subject line
 $mail->Subject = 'New Contact form filled out!';
