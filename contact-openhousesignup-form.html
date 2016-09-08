@@ -1,0 +1,45 @@
+<form enctype="multipart/form-data" action="php/mail-openhousesignup.php" method="POST" >
+    <div class="row">
+        <div class="col-md-6">
+            <input class="form-control" type="text" placeholder="First Name*" name="fname" required/>
+        </div>
+        <div class="col-md-6">
+            <input class="form-control" type="text" placeholder="Last Name*" name="lname" required/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <input class="form-control" type="tel" placeholder="Title" name="usrtitle">
+        </div>
+        <div class="col-md-6">
+            <input class="form-control" type="text" placeholder="Company Name*" name="cname" required/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <input class="form-control" type="tel" placeholder="Salesman" name="salesman">
+        </div>
+        <div class="col-md-6">
+            <input class="form-control" type="email" placeholder="Email Address*" name="email" required/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <p style="text-align: left; margin-bottom: 12px;">Do you have a PHD?*</p>
+            <select class="form-control" name="phd" required>
+                <option value="no">No</option>
+                <option value="yes">Yes</option>
+            </select>
+        </div>
+        <div class="col-md-8">
+            <p style="text-align: left; margin-bottom: 12px;">Choose a Class* <em>(must be present for prizes & giveaways)</em></p>
+            <select class="form-control" name="rclass" required>
+                <option value="11:00am">11:00am – Lunch and refreshments provided</option>
+                <option value="01:30pm">1:30pm – Light snacks and refreshments provided</option>
+                <option value="04:30pm">4:30pm – Heavy hors d’oeuvres and refreshments </option>
+            </select>
+        </div>
+    </div>
+    <p style="text-align: left;">*=  required fields</p>
+    <button class="button effect-swing" id="submitbutton" type="submit" value="Send File">Submit</button>
+</form>
