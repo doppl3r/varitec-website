@@ -54,6 +54,7 @@ nav.white ul > li > ul > li > a:hover { background-color: #ededed; }
 .header1 .vide .button img { width: 32px; padding-bottom: 16px; }
 
 .header2 { margin-top: 92px; padding: 64px 0; background: url('.') no-repeat bottom center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; text-align: center; }
+.header2.center-center { background-position: center center; }
 .header2.none { padding: 0; background: url('.') no-repeat bottom center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; text-align: center; }
 .header2 h1 { font-family: 'nesobrite'; font-size: 88px; color: #fff; text-transform: uppercase; margin: 0; line-height: 88px; }
 .header2 h2 { font-family: 'nesobrite'; font-size: 52px; color: #fff; text-transform: uppercase; margin: 0; line-height: 52px; }
@@ -207,6 +208,7 @@ img.zoom-in:hover { -webkit-transform:scale(1.05); -moz-transform:scale(1.1); -m
 img.zoom-out {-webkit-transition: all 500ms ease; -moz-transition: all 500ms ease; -ms-transition: all 500ms ease; -o-transition: all 500ms ease; transition: all 500ms ease;}
 img.zoom-out:hover { -webkit-transform:scale(0.75); -moz-transform:scale(0.75); -ms-transform:scale(0.75); -o-transform:scale(0.75); transform:scale(0.75); }
 .noselect { -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+.full-width { width: 100%; max-width: initial !important; }
 
 @media(max-width:1024px){ 
     .header1 .arrow.left { left: 0px; height: 32px; padding: 8px; }

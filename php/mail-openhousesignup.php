@@ -14,7 +14,8 @@ $mail = new PHPMailer();
 //Set who the message is to be sent from
 $mail->setFrom($_REQUEST['email'], $_REQUEST['fname'], $_REQUEST['lname']);
 //Set who the message is to be sent to
-$mail->addAddress('kamalak@varitecsolutions.com');
+//$mail->addAddress('kamalak@varitecsolutions.com');
+$mail->addAddress('varitecform@gmail.com');
 //$mail->addAddress('Kelliehuff24@gmail.com');
 //$mail->addAddress('deben3@gmail.com');
 //Set the subject line
