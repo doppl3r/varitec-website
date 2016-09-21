@@ -14,10 +14,10 @@ $mail = new PHPMailer();
 //Set who the message is to be sent from
 $mail->setFrom($_REQUEST['email'], $_REQUEST['name']);
 //Set who the message is to be sent to
-//$mail->addAddress('info@varitecsolutions.com');
-$mail->addAddress('deben3@gmail.com');
+$mail->addAddress('info@varitecsolutions.com');
+//$mail->addAddress('deben3@gmail.com');
 //Set the subject line
-$mail->Subject = 'New Contact form filled out!';
+$mail->Subject = 'New training form filled out!';
 //Read an HTML message body from an external file, convert referenced images to embedded,
 //convert HTML into a basic plain-text alternative body
 $message =  '<div style="padding: 64px; background-color: #9ebc42; border-bottom: 4px solid #83a90d; max-width: 480px; margin: 0 auto; text-align: center;">'.
