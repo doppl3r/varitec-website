@@ -1,0 +1,18 @@
+<form enctype="multipart/form-data" action="php/mail-training.php" method="POST" >
+    <div class="row">
+        <div class="col-xs-4">
+            <input class="form-control" type="text" placeholder="Name" name="name" required/>
+        </div>
+        <div class="col-xs-4">
+            <input class="form-control" type="email" placeholder="Email Address" name="email" required/>
+        </div>
+        <div class="col-xs-4">
+            <input class="form-control" type="tel" placeholder="Phone" name="usrtel">
+        </div>
+    </div>
+    <select class="form-control" name="course" required>
+        <option value="n/a">Course not available</option>
+    </select>
+    <textarea class="form-control" placeholder="Comment" name="comment"></textarea>
+    <button class="button effect-swing" id="submitbutton" type="submit" value="Send File">Submit</button>
+</form>

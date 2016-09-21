@@ -21,36 +21,23 @@
             <h2>excellence</h2>
             <h3>40 Years of educating professionals in HVAC</h3>
         </div>
-        
+
         <section>
-            <div class="wrapper pad-side">
+            <div class="wrapper pad-side panel">
                 <div class="row">
                     <div class="left-nav col-md-4"></div>
                     <div class="col-md-8">
-                        <h3>Request a Training Date</h3>
-                        <p>If you would like to request a training date for you or your clients, please contact us using the options below.</p>
-                        <div class="row training-schedule-options">
-                            <a href="tel:6029431511" class="col-xs-4 item">
-                                <div>
-                                    <i class="material-icons">settings_phone</i>
-                                    <p class="header">602.943.1511</p>
-                                    <p class="sub-header">call directly</p>
+                        <h2 style="padding-bottom:0;">Varitec Courses</h2>
+                        <p>Learn about courses like factory certified installation procedures, start-up procedures, trouble shooting and more.</p>
+                        <div class="location">
+                            <h3>Course Schedule</h3>
+                            <div class="row">
+                                <div class="col-md-3"><img src="img/course-thumb-1.jpg"/></div>
+                                <div class="col-md-9">
+                                    <h4>Coming soon</h4>
+                                    <p>Check back for details and course schedules</p>
                                 </div>
-                            </a>
-                            <a target="_blank" href="mailto:info@varitecsolutions.com?Subject=Contacting Varitec" class="col-xs-4 item">
-                                <div>
-                                    <i class="material-icons">email</i>
-                                    <p class="header">Email</p>
-                                    <p class="sub-header">info@varitecsolutions.com</p>
-                                </div>
-                            </a>
-                            <a href="training-register.html" class="col-xs-4 item">
-                                <div>
-                                    <i class="material-icons">assignment_turned_in</i>
-                                    <p class="header">Contact Form</p>
-                                    <p class="sub-header">email alternative</p>
-                                </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -67,9 +54,13 @@
 		<script>
             $(document).ready(function () {
                 $('nav').load('nav.html',function(){ setNav(0); });
-                $('.left-nav').load('training-nav.html',function(){ setLeftNav(1); });
+                $('.left-nav').load('training-nav.html',function(){ setLeftNav(2); });
                 $('footer').load('footer.html');
             });
+            $('.more').parent('ul').has('.more').find('li').css('display','none');
+            $('.more').click(function() { $(this).parent('ul').find('li').fadeToggle('slow'); });
+            $('.location div').addClass('collapsed');
+            $('.location h3').click(function() { $(this).parent('.location').find('div').fadeToggle("slow").toggleClass('collapsed'); $(this).parent('.location').find('h3').toggleClass('collapsed'); });
 		</script>
 	</body>
 </html>
