@@ -1,0 +1,11 @@
+<ul class="left-nav">
+    <div class="toggle noselect"><li>Learn More<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></li></div>
+    <a class="effect-swing" href="training.html"><li>Training</li></a>
+    <a class="effect-swing" href="training-schedule.html"><li>Schedule</li></a>
+    <a class="effect-swing" href="training-courses.html"><li>Courses</li></a>
+    <a class="effect-swing" href="training-register.html"><li>Register</li></a>
+</ul>
+<script>
+    function setLeftNav(i){ $('.left-nav').find('ul a').eq(i).addClass('active effect-swing'); }
+    $(".toggle").click(function() { $('.left-nav').toggleClass("active"); });
+</script>
