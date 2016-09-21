@@ -5,13 +5,13 @@ This is the source code for the Varitec Solutions website.
 - WebStorm 2016.2.3+
     - Plugins:
         - File Watcher (should be automatically installed)
-- node v5.5.0+
-- npm v3.3.12+
-    - node-sass `npm install node-sass`
-        - File Watcher settings (Windows):
+- Node.js
+    - node-sass `npm install -g node-sass`
+        - File Watcher settings (Windows[src](http://stackoverflow.com/a/36870193)):
             - File Type: `SCSS`
-            - Program: `$ProjectFileDir$\node\node_modules\.bin\node-sass.cmd`
+            - Program: `C:\Users\%username%\AppData\Roaming\npm\node-sass.cmd`
             - Argument: `$FileName$ $ProjectFileDir$\css\$FileNameWithoutExtension$.css`
             - Output: `$ProjectFileDir$\css\$FileNameWithoutExtension$.css`
             - Screenshot:
             ![alt tag](https://raw.githubusercontent.com/doppl3r/varitec-website/master/img/filewatcher.png)
+            
