@@ -1,0 +1,249 @@
+.fiesta {
+
+    .header2 {
+        padding: 5%;
+        position: relative;
+
+        &:after {
+            $width: 60px;
+            $color: #286f9a;
+            top: 100%;
+            left: 50%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+            border-color: transparent;
+            border-top-color: $color;
+            border-width: $width;
+            margin-left: -($width);
+            z-index: 1;
+        }
+
+        h1 {
+            font-family: 'feltTipRoman';
+            font-size: 28px;
+            text-transform: initial;
+        }
+        img { max-width: 100%; }
+    }
+    .green {
+        $color: #a0bd49;
+        background-color: $color;
+        color: #fff;
+        padding: 10% 5% 0;
+        position: relative;
+        text-align: center;
+
+        h1 {
+            color: #fff;
+            font-family: 'roboto-condensedbold';
+            margin: 0;
+            text-transform: uppercase;
+        }
+        h3 {
+            color: #ffffff;
+            font-family: 'feltTipRoman';
+            font-size: 21px;
+            font-weight: normal;
+            margin: 0;
+            padding: 0;
+        }
+        p {
+            color: #fff;
+            text-align: left;
+        }
+        ul {
+            color: #fff;
+            font-family: 'feltTipRoman';
+            line-height: 30px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+
+        .row {
+            position: relative;
+
+            .align-bottom-right {
+                bottom:0;
+                right: 0;
+                padding: 0;
+                position: absolute;
+            }
+        }
+
+        &:after {
+            $width: 60px;
+            top: 100%;
+            left: 50%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+            border-color: transparent;
+            border-top-color: $color;
+            border-width: $width;
+            margin-left: -($width);
+            z-index: 1;
+        }
+    }
+
+    .yellow {
+        $color: #dcdc4c;
+        background-color: $color;
+        color: #4b4a4a;
+        padding: 10% 5% 0;
+        position: relative;
+        text-align: center;
+
+        h1 {
+            color: #4b4a4a;
+            font-family: 'roboto-condensedbold';
+            margin: 0;
+            text-transform: uppercase;
+        }
+        h3 {
+            color: #4b4a4a;
+            font-family: 'feltTipRoman';
+            font-size: 21px;
+            font-weight: normal;
+            margin: 0;
+            padding: 0;
+        }
+        p {
+            color: #4b4a4a;
+            text-align: left;
+        }
+        ul {
+            color: #4b4a4a;
+            font-family: 'feltTipRoman';
+            line-height: 30px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+        img {
+            padding-bottom: 12px;
+        }
+
+        &:after {
+            $width: 60px;
+            top: 100%;
+            left: 50%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+            border-color: transparent;
+            border-top-color: $color;
+            border-width: $width;
+            margin-left: -($width);
+            z-index: 1;
+        }
+    }
+
+    .blue {
+        $color: #3593cd;
+        background-color: $color;
+        color: #ffffff;
+        padding: 10% 5%;
+        position: relative;
+        text-align: center;
+
+        h1 {
+            color: #ffffff;
+            font-family: 'roboto-condensedbold';
+            margin: 0;
+            text-transform: uppercase;
+        }
+        h3 {
+            color: #ffffff;
+            font-family: 'feltTipRoman';
+            font-size: 21px;
+            font-weight: normal;
+            margin: 0;
+            padding: 0;
+        }
+        p {
+            color: #ffffff;
+            text-align: left;
+        }
+        ul {
+            color: #ffffff;
+            font-family: 'feltTipRoman';
+            line-height: 30px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+        img {
+            padding-top: 24px;
+            opacity: 0.7;
+        }
+
+        &:after {
+            $width: 60px;
+            top: 100%;
+            left: 50%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+            border-color: transparent;
+            border-top-color: $color;
+            border-width: $width;
+            margin-left: -($width);
+            z-index: 1;
+        }
+    }
+
+    .white-section {
+        $color: #ffffff;
+        background-color: $color;
+        color: #ffffff;
+        padding: 10% 5%;
+        position: relative;
+        text-align: center;
+
+        h1 {
+            color: #a0bd49;
+            font-family: 'roboto-condensedbold';
+            font-size: 80px;
+            margin: 0;
+            text-transform: uppercase;
+            text-shadow: -5px 5px 0 #21bbe0;
+        }
+        h3 {
+            color: #5e5e5e;
+            font-family: 'feltTipRoman';
+            font-size: 21px;
+            font-weight: normal;
+            margin: 0;
+            padding: 0;
+        }
+        p {
+            color: #5e5e5e;
+            margin: 0;
+        }
+        .button {
+            background-color: #a0bd49;
+            color: #ffffff;
+            font-size: 48px;
+            margin: 10% 0;
+            padding: 1% 8%;
+            text-transform: uppercase;
+        }
+    }
+}

@@ -1,0 +1,198 @@
+.fiesta .header2 {
+  padding: 5%;
+  position: relative; }
+  .fiesta .header2:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-top-color: #286f9a;
+    border-width: 60px;
+    margin-left: -60px;
+    z-index: 1; }
+  .fiesta .header2 h1 {
+    font-family: 'feltTipRoman';
+    font-size: 28px;
+    text-transform: initial; }
+  .fiesta .header2 img {
+    max-width: 100%; }
+
+.fiesta .green {
+  background-color: #a0bd49;
+  color: #fff;
+  padding: 10% 5% 0;
+  position: relative;
+  text-align: center; }
+  .fiesta .green h1 {
+    color: #fff;
+    font-family: 'roboto-condensedbold';
+    margin: 0;
+    text-transform: uppercase; }
+  .fiesta .green h3 {
+    color: #ffffff;
+    font-family: 'feltTipRoman';
+    font-size: 21px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0; }
+  .fiesta .green p {
+    color: #fff;
+    text-align: left; }
+  .fiesta .green ul {
+    color: #fff;
+    font-family: 'feltTipRoman';
+    line-height: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left; }
+  .fiesta .green .row {
+    position: relative; }
+    .fiesta .green .row .align-bottom-right {
+      bottom: 0;
+      right: 0;
+      padding: 0;
+      position: absolute; }
+  .fiesta .green:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-top-color: #a0bd49;
+    border-width: 60px;
+    margin-left: -60px;
+    z-index: 1; }
+
+.fiesta .yellow {
+  background-color: #dcdc4c;
+  color: #4b4a4a;
+  padding: 10% 5% 0;
+  position: relative;
+  text-align: center; }
+  .fiesta .yellow h1 {
+    color: #4b4a4a;
+    font-family: 'roboto-condensedbold';
+    margin: 0;
+    text-transform: uppercase; }
+  .fiesta .yellow h3 {
+    color: #4b4a4a;
+    font-family: 'feltTipRoman';
+    font-size: 21px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0; }
+  .fiesta .yellow p {
+    color: #4b4a4a;
+    text-align: left; }
+  .fiesta .yellow ul {
+    color: #4b4a4a;
+    font-family: 'feltTipRoman';
+    line-height: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left; }
+  .fiesta .yellow img {
+    padding-bottom: 12px; }
+  .fiesta .yellow:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-top-color: #dcdc4c;
+    border-width: 60px;
+    margin-left: -60px;
+    z-index: 1; }
+
+.fiesta .blue {
+  background-color: #3593cd;
+  color: #ffffff;
+  padding: 10% 5%;
+  position: relative;
+  text-align: center; }
+  .fiesta .blue h1 {
+    color: #ffffff;
+    font-family: 'roboto-condensedbold';
+    margin: 0;
+    text-transform: uppercase; }
+  .fiesta .blue h3 {
+    color: #ffffff;
+    font-family: 'feltTipRoman';
+    font-size: 21px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0; }
+  .fiesta .blue p {
+    color: #ffffff;
+    text-align: left; }
+  .fiesta .blue ul {
+    color: #ffffff;
+    font-family: 'feltTipRoman';
+    line-height: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left; }
+  .fiesta .blue img {
+    padding-top: 24px;
+    opacity: 0.7; }
+  .fiesta .blue:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-top-color: #3593cd;
+    border-width: 60px;
+    margin-left: -60px;
+    z-index: 1; }
+
+.fiesta .white-section {
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 10% 5%;
+  position: relative;
+  text-align: center; }
+  .fiesta .white-section h1 {
+    color: #a0bd49;
+    font-family: 'roboto-condensedbold';
+    font-size: 80px;
+    margin: 0;
+    text-transform: uppercase;
+    text-shadow: -5px 5px 0 #21bbe0; }
+  .fiesta .white-section h3 {
+    color: #5e5e5e;
+    font-family: 'feltTipRoman';
+    font-size: 21px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0; }
+  .fiesta .white-section p {
+    color: #5e5e5e;
+    margin: 0; }
+  .fiesta .white-section .button {
+    background-color: #a0bd49;
+    color: #ffffff;
+    font-size: 48px;
+    margin: 10% 0;
+    padding: 1% 8%;
+    text-transform: uppercase; }
