@@ -496,6 +496,12 @@ section .panel-title > a:after {
 section .panel-title > a.collapsed:after {
   content: '+'; }
 
+section .panel .special h3 {
+  background-color: #9EBC42;
+  color: #fff; }
+  section .panel .special h3:after {
+    content: '' !important; }
+
 section .panel-default {
   border: none; }
 

@@ -209,7 +209,7 @@ section .panel h1 { font-size: 48px; padding: 0 0 12px; margin: 0; color: #49494
 section .panel h3 { border-bottom: 4px solid #f1f1f1; padding: 12px; background-color: #f1f1f1; font-weight: normal; }
 section .panel h4 { padding: 0; margin: 0; }
 section .panel ul { font-family: 'roboto-condensedregular'; color: #494949; margin-bottom: 12px; }
-section .panel ul a.more { display: inline-block; margin: 0px 0 8px -40px; cursor:pointer; color:#9ebc42; font-family: 'roboto-condensedregular'; font-size: 16px; font-weight: normal; }
+section .panel ul a.more { display: inline-block; margin: 0px 0 8px -40px; cursor:pointer; color: #9ebc42; font-family: 'roboto-condensedregular'; font-size: 16px; font-weight: normal; }
 section .panel ul a.more:hover { color: #666; }
 section .panel .row .row { border-bottom: 1px solid #ededed; padding: 12px 0 0; margin: 0 0px; }
 section .panel { box-shadow: none; }
@@ -217,6 +217,15 @@ section .panel-title { padding: 0; }
 section .panel-title>a { display: inline-block; text-decoration: none; margin: 0; width: 100%; }
 section .panel-title>a:after { content: '-'; font-size: 32px; color: #fff; background-color: #999999; float: right; width: 32px; line-height: 32px; text-align: center; margin-right: -15px; margin-bottom: -10px; border-bottom: 1px solid #999999; }
 section .panel-title>a.collapsed:after { content: '+'; }
+section .panel {
+    .special {
+        h3 {
+            background-color: #9EBC42; color: #fff;
+
+            &:after { content: '' !important; }
+        }
+    }
+}
 section .panel-default { border: none; }
 section .panel-default>.panel-heading { background-color: transparent; border: none; border-bottom: 1px solid #e0e0e0; }
 section .panel-default>.panel-heading+.panel-collapse>.panel-body { border: none; }
