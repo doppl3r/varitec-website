@@ -210,6 +210,14 @@
             margin-left: -($width);
             z-index: 1;
         }
+        .button {
+            background-color: #ffffff;
+            color: $color;
+            font-size: 48px;
+            margin: 10% 0 5%;
+            padding: 1% 8%;
+            text-transform: uppercase;
+        }
     }
 
     .white-section {

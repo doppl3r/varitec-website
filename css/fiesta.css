@@ -166,6 +166,13 @@
     border-width: 60px;
     margin-left: -60px;
     z-index: 1; }
+  .fiesta .blue .button {
+    background-color: #ffffff;
+    color: #3593cd;
+    font-size: 48px;
+    margin: 10% 0 5%;
+    padding: 1% 8%;
+    text-transform: uppercase; }
 
 .fiesta .white-section {
   background-color: #ffffff;
