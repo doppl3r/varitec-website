@@ -180,6 +180,8 @@
         position: relative;
         text-align: center;
 
+        &.light { $color: #3594ce; background-color: $color; }
+
         h1 {
             color: #ffffff;
             font-family: 'roboto-condensedbold';

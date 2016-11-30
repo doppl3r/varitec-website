@@ -146,6 +146,8 @@
   padding: 80px 5%;
   position: relative;
   text-align: center; }
+  .fiesta .blue.light {
+    background-color: #3594ce; }
   .fiesta .blue h1 {
     color: #ffffff;
     font-family: 'roboto-condensedbold';
@@ -182,13 +184,13 @@
     position: absolute;
     pointer-events: none;
     border-color: transparent;
-    border-top-color: #1e477e;
+    border-top-color: #3594ce;
     border-width: 60px;
     margin-left: -60px;
     z-index: 1; }
   .fiesta .blue .button {
     background-color: #ffffff;
-    color: #1e477e;
+    color: #3594ce;
     font-size: 48px;
     margin: 10% 0 5%;
     padding: 1% 8%;
