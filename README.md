@@ -1,6 +1,8 @@
 # Varitec Solutions
 This is the source code for the Varitec Solutions website.
 
+Project: [https://github.com/doppl3r/varitec-website](https://github.com/doppl3r/varitec-website)
+
 ### Recommended IDE Settings
 - WebStorm 2016.2.3+
     - Plugins:
