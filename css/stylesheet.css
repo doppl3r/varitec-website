@@ -69,6 +69,16 @@ nav {
         text-transform: uppercase;
         line-height: 92px;
         color: #fff; }
+        nav ul > li > a.button {
+          background-color: #9ebc42;
+          border: 1px solid #9ebc42;
+          color: #fff;
+          line-height: 24px;
+          margin: 24px 10px;
+          padding: 10px; }
+          nav ul > li > a.button:hover {
+            background-color: transparent;
+            color: #9ebc42; }
         nav ul > li > a > span {
           display: block; }
         nav ul > li > a:hover {
