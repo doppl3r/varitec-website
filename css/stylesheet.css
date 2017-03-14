@@ -460,6 +460,8 @@ section .panel ul {
   font-family: 'roboto-condensedregular';
   color: #494949;
   margin-bottom: 12px; }
+  section .panel ul li ul {
+    margin-bottom: 0; }
 
 section .panel ul a.more {
   display: inline-block;
