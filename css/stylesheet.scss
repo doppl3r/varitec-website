@@ -242,11 +242,14 @@ section .panel-title>a { display: inline-block; text-decoration: none; margin: 0
 section .panel-title>a:after { content: '-'; font-size: 32px; color: #fff; background-color: #999999; float: right; width: 32px; line-height: 32px; text-align: center; margin-right: -15px; margin-bottom: -10px; border-bottom: 1px solid #999999; }
 section .panel-title>a.collapsed:after { content: '+'; }
 section .panel {
-    .special {
-        h3 {
-            background-color: #9EBC42; color: #fff;
+    .location {
+        .special {
+            h3 {
+                background-color: #9EBC42; color: #fff;
+                cursor: initial;
 
-            &:after { content: '' !important; }
+                &:after { content: '' !important; }
+            }
         }
     }
 }
