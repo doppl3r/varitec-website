@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Varitec</title>
+    <title>Varitec Solutions</title>
 </head>
 <body>
 <?php

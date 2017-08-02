@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Ely Video Mailer</title>
+    <title>Varitec Solutions</title>
 </head>
 <body>
 <?php
@@ -15,7 +15,6 @@ $mail = new PHPMailer();
 $mail->setFrom($_REQUEST['email'], $_REQUEST['name']);
 //Set who the message is to be sent to
 $mail->addAddress('kevinh@varitecsolutions.com');
-$mail->addAddress('deben3@gmail.com');
 //Set the subject line
 $mail->Subject = 'New Contact form filled out!';
 //Read an HTML message body from an external file, convert referenced images to embedded,
