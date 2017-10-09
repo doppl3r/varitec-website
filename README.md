@@ -1,19 +1,22 @@
-# Varitec Solutions
-This is the source code for the Varitec Solutions website.
+# About Varitec Solutions
+Founded in Phoenix 40 years ago, Climatec grew to more than 850 employees with 13 locations in Arizona, California, Nevada, New Mexico and Texas.
 
-Project: [https://github.com/doppl3r/varitec-website](https://github.com/doppl3r/varitec-website)
+Link: http://varitecsolutions.com
 
-### Recommended IDE Settings
-- WebStorm 2016.2.3+
-    - Plugins:
-        - File Watcher (should be automatically installed)
-- Node.js
-    - node-sass `npm install -g node-sass`
-        - File Watcher settings (Windows[src](http://stackoverflow.com/a/36870193)):
-            - File Type: `SCSS`
-            - Program: `C:\Users\%username%\AppData\Roaming\npm\node-sass.cmd`
-            - Argument: `$FileName$ $ProjectFileDir$\css\$FileNameWithoutExtension$.css`
-            - Output: `$ProjectFileDir$\css\$FileNameWithoutExtension$.css`
-            - Screenshot:
-            ![alt tag](https://raw.githubusercontent.com/doppl3r/varitec-website/master/img/filewatcher.png)
-            
+### Development Structure
+This website uses jQuery to deploy static HTML elements. Simply download the project and run the index.html from a secure (local/http) server. File:// is not secure.
+
+### Recommended IDE
+VSCode
+- [download](https://code.visualstudio.com/download)
+
+### Deployment Instructions
+Varitec Solutions uses Sass (a stylesheet language) to precompile the global stylesheet. In short, the stylesheet.scss creates a new stylesheet.css that the browser can interpret.
+
+In order to continually compile for deployment, you must install the Node.js Sass library
+- [Download](https://nodejs.org/en/download/) & Install Node.js
+- Run the following command in the node console: ```npm install -g node-sass```
+
+The project 'tasks.json' file has predefined rules where the .css file will be compiled. Simply build the project by pressing ```ctrl + shift + b```
+
+When you are ready to update the changes to the main varitecsolutions.com website, simply set up the FTP instructions on your local machine and drag the new code to the root directory.
