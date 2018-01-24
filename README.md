@@ -1,3 +1,7 @@
+# DEPRECIATED
+Please request changes directly to the Varitec organization page: 
+https://github.com/varitec/varitec.github.io
+
 # About Varitec Solutions
 Founded in Phoenix 40 years ago, Climatec grew to more than 850 employees with 13 locations in Arizona, California, Nevada, New Mexico and Texas.
 
